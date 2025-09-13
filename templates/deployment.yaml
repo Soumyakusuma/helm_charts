@@ -4,7 +4,7 @@ metadata:
   name: deployment-demo
   labels: #repica set labels
     name: roboshop
-    environment: dev
+    environment: devl
 spec:
   replicas: {{ .Values.deployment.replicas }}
   selector: # These are the labels replica set use to create pod replicas, this should match pod labels
